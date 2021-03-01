@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 0.5;
+	background: rgb(255,130,255);
+}
+.cal{
+	width: 500px;
+	padding-top: 200px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	transition:0.25px;
+	text-align: center;
+}
+#display{
+	border:none;
+	background:white;
+	border-radius: 30px;
+	width: 280px;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: 300px;
+	height: 60px;
+	margin: auto;
+	border: 2px solid white;
+	color: black;
+}
+.btn{
+	height: 55px;
+	width: 60px;
+	padding-top: -1px;
+	border: none;
+	font-family: sans-serif;
+	background: white;
+	font-size: 30px;
+	font-weight: 300px;
+	border-radius: 30px;
+	margin: 1.5;
+}
+.operator{
+	height: 55px;
+	width: 100px;
+	padding-top: -1px;
+	border: none;
+	font-family: sans-serif;
+	background: white;
+	font-size: 30px;
+	font-weight: 300px;
+	border-radius: 30px;
+	margin: 1.5px;
+	transition:0.25px;
+	cursor: pointer;
+}
+.operator:hover{
+	background: blue; 
+}
+#zero{
+	height: 55px;
+	width: 120px;
+	padding-top: -1px;
+	border: none;
+	font-family: sans-serif;
+	background: white;
+	font-size: 30px;
+	font-weight: 300px;
+	border-radius: 30px;
+	margin: 1.5px;
+}
+h1{
+	color: white;
+	margin-top: 100px;
+	margin-left: 50px;
+	font-family: sans-serif;
+	font-weight: 700px;
+	font-size: 50px;
+}
+h3{
+	color: red;
+	margin-left: 50px;
+	font-family: sans-serif;
+	font-weight: 500px;
+	font-size: 20px;
+}
